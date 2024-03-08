@@ -1,34 +1,18 @@
-CalTRACK Technical Documentation
-================================
-
-CalTRACK methods are developed in an open and transparent stakeholder process that uses empirical testing to define replicable methods for calculating normalized metered energy consumption using either monthly or interval data from an existing conditions baseline.
-
-This repository contains the CalTRACK 2.0 methods, and the CalTRACK Technical Appendix, which explains how many of the methods were developed.
-
-Future improvements are catalogued as "Issues" and are found in the Projects tab. These issues are considered "closed" until they are formally re-opened by the Working Group. 
-
-Formal changes in methods will follow processes established under the JDF charter:
-
-Deliverable Development Process
-
-Working Groups.  The Project may have multiple Working Groups, and each Working Group will operate as set forth in this Section and its Working Group Charter.
-
-Working Group Chair.  Each Working Group will designate a chair for that Working Group.  A Working Group may select a new chair upon Approval of the Working Group Participants.
-
-Working Group Requirements.  Each Working Group must be comprised of at least 2 Working Group Participants.  No Working Group Participant will be permitted to participate in a Working Group without first Joining the Working Group.
-
-Conditions for Contributions.  A Steering Member, Associate, or Contributor may not make any Contribution unless that Steering Member, Associate or Contributor is the exclusive copyright owner of the Contribution or has sufficient copyright rights from the copyright owners to make the Contribution under the terms of this Project Charter and applicable Working Group Charter.  The Steering Member, Associate, or Contributor must disclose the identities of all known copyright owners in the Contribution.
-
-**Deliverable Development Process**
-
-Pre-Draft.  Any Working Group Participant or Contributor may submit a proposed initial draft document as a candidate Draft Deliverable of that Working Group.  The Working Group chair will designate each submission as a “Pre-Draft” document. This [quick-start video](https://www.dropbox.com/s/n5r3ihq6eanyl7l/em2_github_issues.mp4?dl=0) shows how to submit an issue for consideration.
-
-Draft.  Each Pre-Draft document of a Working Group must first be Approved by the Working Group Participants of that Working Group to become a Draft Deliverable.  Once the Working Group approves a document as a Draft Deliverable, the Draft Deliverable becomes the basis for all going forward work on that deliverable.
-
-Working Group Approval.  Once a Working Group believes it has achieved the objectives for its deliverable as described in the Scope, it will progress its Draft Deliverable to “Working Group Approved” status. 
-
-Final Approval.  Upon a Draft Deliverable reaching Working Group Approved status, the Executive Director or his/her designee will present that Working Group Approved Draft Deliverable to all Steering Members for Approval.  Upon Approval by the Steering Members, that Draft Deliverable will be designated an “Approved Deliverable.”
-
-Publication and Submission.  Upon the designation of a Draft Deliverable as an Approved Deliverable, the Executive Director will publish the Approved Deliverable in a manner agreed upon by the Working Group Participants (i.e., Project Participant only location, publicly available location, Project maintained website, Project member website, etc.).  The publication of an Approved Deliverable in a publicly accessible manner must include the terms under which the Approved Deliverable and/or source code is being made available under, as set forth in the applicable Working Group Charter.
-
-Submissions to Standards Bodies.  No Draft Deliverable or Approved Deliverable may be submitted to another standards development organization without Approval by the Steering Members.  Upon Approval by the Steering Members, the Executive Director will coordinate the submission of the applicable Draft Deliverable or Approved Deliverable to another standards development organization with Joint Development Foundation Projects, LLC.    Working Group Participants that developed that Draft Deliverable or Approved Deliverable agree to grant the copyright rights necessary to make those submissions.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CalTRACK 技术文档</font></font></h1><a id="user-content-caltrack-technical-documentation" class="anchor" aria-label="永久链接：CalTRACK 技术文档" href="#caltrack-technical-documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CalTRACK 方法是在开放、透明的利益相关者流程中开发的，该流程使用经验测试来定义可复制的方法，使用来自现有条件基线的每月或间隔数据来计算标准化计量能耗。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该存储库包含 CalTRACK 2.0 方法和 CalTRACK 技术附录，其中解释了开发了多少种方法。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未来的改进将被归类为“问题”，并可在“项目”选项卡中找到。</font><font style="vertical-align: inherit;">这些问题在工作组正式重新开放之前被视为“已解决”。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法的正式变更将遵循 JDF 章程规定的流程：</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可交付成果的开发流程</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作组。</font><font style="vertical-align: inherit;">该项目可能有多个工作组，每个工作组将按照本节及其工作组章程的规定运作。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作组主席。</font><font style="vertical-align: inherit;">每个工作组将为该工作组指定一名主席。</font><font style="vertical-align: inherit;">经工作组参与者批准后，工作组可以选出新主席。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作组要求。</font><font style="vertical-align: inherit;">每个工作组必须至少由 2 名工作组参与者组成。</font><font style="vertical-align: inherit;">任何工作组参与者在未先加入工作组的情况下都不得参加工作组。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捐款条件。</font><font style="vertical-align: inherit;">指导成员、合伙人或贡献者不得做出任何贡献，除非指导成员、合伙人或贡献者是贡献的专有版权所有者，或者从版权所有者那里拥有足够的版权，可以根据本项目章程的条款做出贡献，并且适用的工作组章程。</font><font style="vertical-align: inherit;">指导成员、同事或贡献者必须披露贡献中所有已知版权所有者的身份。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可交付成果的开发流程</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预草案。</font><font style="vertical-align: inherit;">任何工作组参与者或贡献者都可以提交拟议的初始草案文件作为该工作组的候选可交付成果草案。</font><font style="vertical-align: inherit;">工作组主席将指定每份提交的文件为“预草案”文件。</font><font style="vertical-align: inherit;">该</font></font><a href="https://www.dropbox.com/s/n5r3ihq6eanyl7l/em2_github_issues.mp4?dl=0" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速入门视频</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">展示了如何提交问题以供考虑。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">草稿。</font><font style="vertical-align: inherit;">工作组的每份预草案文件必须首先得到该工作组的工作组参与者的批准才能成为可交付成果草案。</font><font style="vertical-align: inherit;">一旦工作组批准文件作为可交付成果草案，可交付成果草案将成为该可交付成果所有后续工作的基础。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作组批准。</font><font style="vertical-align: inherit;">一旦工作组认为其已经实现了范围中描述的可交付成果的目标，它将将其可交付成果草案推进到“工作组批准”状态。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终批准。</font><font style="vertical-align: inherit;">当可交付成果草案达到工作组批准状态后，执行主任或其指定人员将将该工作组批准的可交付成果草案提交给所有指导成员批准。</font><font style="vertical-align: inherit;">经指导成员批准后，该交付成果草案将被指定为“批准的交付成果”。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">出版和提交。</font><font style="vertical-align: inherit;">将可交付成果草案指定为经批准的可交付成果后，执行董事将以工作组参与者商定的方式发布经批准的可交付成果（即仅限项目参与者的位置、公开位置、项目维护的网站、项目成员网站、 ETC。）。</font><font style="vertical-align: inherit;">以可公开访问的方式发布经批准的交付成果必须包括根据适用的工作组章程中规定的规定提供经批准的交付成果和/或源代码的条款。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向标准机构提交的材料。</font><font style="vertical-align: inherit;">未经指导成员批准，不得将可交付成果草案或批准的可交付成果提交给其他标准制定组织。</font><font style="vertical-align: inherit;">经指导成员批准后，执行董事将与联合开发基金会项目有限责任公司协调将适用的可交付成果草案或批准的可交付成果提交给另一个标准制定组织。</font><font style="vertical-align: inherit;">制定交付成果草案或批准交付成果的工作组参与者同意授予提交这些意见所需的版权。</font></font></p>
+</article></div>
